@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">天気 Notez</string>
+    <string name="button">押す</string>
+    <string name="change_city">都市を変える</string>
+    <string name="city_name">市の名前</string>
+    <string name="welcome">ようこそ</string>
+    <string name="loading_notes">メモを読み込んでいます</string>
+    <string name="no_Internet">インターネット接続なし</string>
+    <string name="Processing">処理</string>
+    <string name="notes">ノート</string>
+    <string name="delete">消す</string>
+    <string name="insert_note_name">ノート名を挿入</string>
+    <string name="humidity">湿度</string>
+    <string name="description">説明</string>
+    <string name="language">言語</string>
+    <string name="change_language">言語変更</string>
+    <string name="text_saved">救う</string>
+</resources>

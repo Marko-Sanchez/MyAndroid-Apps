@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather Notez</string>
+    <string name="button">Press</string>
+    <string name="change_city">Change City</string>
+    <string name="city_name">City Name</string>
+    <string name="welcome">Welcome</string>
+    <string name="loading_notes">Loading Notes</string>
+    <string name="no_Internet">No Internet Connection</string>
+    <string name="Processing">Processing</string>
+    <string name="notes">Notes</string>
+    <string name="delete">delete</string>
+    <string name="insert_note_name">Insert Note Name</string>
+    <string name="humidity">Humidity</string>
+    <string name="description">Description</string>
+    <string name="language">Language</string>
+    <string name="change_language">Change Language</string>
+    <string name="text_saved">Text Saved</string>
+
+</resources>

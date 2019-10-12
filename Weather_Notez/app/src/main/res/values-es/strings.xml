@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clima con Notaz</string>
+    <string name="button">Presiona</string>
+    <string name="change_city">Cambiar Ciudad</string>
+    <string name="city_name">Nombre de ciudad</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="loading_notes">Cargando notas</string>
+    <string name="no_Internet">Sin conexión a Internet</string>
+    <string name="Processing">Procesando</string>
+    <string name="notes">Notas</string>
+    <string name="delete">borrar</string>
+    <string name="insert_note_name">Inserta nombre de nota</string>
+    <string name="humidity">Humida</string>
+    <string name="description">Descripción</string>
+    <string name="language">Lenguaje</string>
+    <string name="change_language">Cambiar Lenguage</string>
+    <string name="text_saved">Guardado</string>
+</resources>
