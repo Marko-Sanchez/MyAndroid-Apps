@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/vast_field"
+    tools:context=".CreateNewUser">
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/CreateNewUser_user_name"
+        android:layout_margin="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:bootstrapBrand="info"
+        app:bootstrapSize="md"
+        app:roundedCorners="true"
+        android:alpha=".69"
+        android:hint="Name"
+        />
+
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/CreateNewUser_password"
+        android:layout_margin="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:bootstrapBrand="info"
+        app:bootstrapSize="md"
+        app:roundedCorners="true"
+        android:alpha=".69"
+        android:hint="PassWord"
+        />
+
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/CreateNewUser_Courses"
+        android:layout_margin="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:bootstrapBrand="info"
+        app:bootstrapSize="md"
+        app:roundedCorners="true"
+        android:alpha=".69"
+        android:hint="Course ex. CS107"
+        />
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/CreateNewUser_Grades"
+        android:layout_margin="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:bootstrapBrand="info"
+        app:bootstrapSize="md"
+        app:roundedCorners="true"
+        android:alpha=".69"
+        android:hint="Grade"
+        />
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:onClick="addNewUserCourses"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="md"
+        android:text="ADD COURSE"
+        app:roundedCorners="true"
+        app:bootstrapBrand="success"
+        />
+    <com.beardedhen.androidbootstrap.BootstrapWell
+        android:layout_weight="1"
+        android:id="@+id/listview_Well"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        app:bootstrapSize="sm"
+        android:textAlignment="center"
+        >
+        <ListView
+            android:id="@+id/CreateNewUser_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.beardedhen.androidbootstrap.BootstrapWell>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:onClick="CreateNewUser_Create"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="lg"
+        android:text="Create User"
+        app:roundedCorners="true"
+        />
+</LinearLayout>

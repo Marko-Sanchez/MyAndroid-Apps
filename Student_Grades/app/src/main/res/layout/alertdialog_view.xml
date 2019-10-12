@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".student_info"
+    >
+
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:textSize="20sp"
+        app:bootstrapHeading="h4"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="5dp"
+        android:text="Course" />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/course_EditText"
+        android:layout_columnWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:roundedCorners="true"/>
+
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="Grade"
+        android:paddingEnd="5dp"
+        android:textSize="20sp"
+        app:bootstrapBrand="primary"
+        app:bootstrapHeading="h6"
+        app:roundedCorners="true"
+        android:layout_gravity="end"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/grade_EditText"
+        android:layout_columnWeight="1"
+        app:roundedCorners="true"
+        app:bootstrapBrand="info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</GridLayout>
